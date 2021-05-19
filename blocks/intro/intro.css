@@ -1,9 +1,15 @@
 .intro {
+    width: 984px;
     display: flex;
     flex-direction: column;
-    max-width: 1280px;
-    margin: auto;
     color: white;
     align-items: flex-start;
-    margin:92px 0 0 148px;
+    padding-top:114px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        width: 928px;
+    }
 }

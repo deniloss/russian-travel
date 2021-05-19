@@ -1,0 +1,15 @@
+.place__paragraph {
+    color: #AAAAAA;
+    margin: 0;
+    font-family: "Inter Regular";
+    font-size: 18px;
+    line-height: 29px;
+    margin-left: 40px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        margin-left: 32px;
+    }
+}
