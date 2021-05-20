@@ -1,4 +1,5 @@
 .cover {
+    max-width: 1184px;
     position: relative;
     height: 740px;
     background-image: url(../../images/cover-trains.jpg);
@@ -23,8 +24,15 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+@media screen and (max-width: 1024px) {
+    .cover {
+        height: 640px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cover {
+        height: 480px;
         margin-top: 62px;
         background-position: center;
     }
