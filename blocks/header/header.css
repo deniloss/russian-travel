@@ -6,7 +6,8 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 28px 0 56px 0;
-    font-family: "Inter Regular";
+    font-family: "Inter";
+    font-weight: 400;
     color: white;
 }
 

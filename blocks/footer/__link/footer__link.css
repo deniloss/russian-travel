@@ -2,7 +2,8 @@
     text-decoration: none;
     color: white;
     margin-left: 18px;
-    font-family: "Inter Regular";
+    font-family: "Inter";
+    font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     transition: opacity 0.1s linear;
