@@ -7,15 +7,39 @@
     "title website"
     "image paragraph"
     "image paragraph";
-    margin: 0 11.3%;
-    margin-bottom: 80px;
+    margin: 0 11.3% 80px 11.3%;
+    gap: 40px;
 }
 
 
 @media screen and (max-width: 1024px) {
     .place {
-        margin: 0 5%;
-        margin-bottom: 80px;
+        gap: 32px;
+        margin: 0 5% 80px 5%;
         grid-template-columns: 1fr 450px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        width: 93.75%;
+        margin: 0;
+        grid-template-columns: 1fr fit-content(352px);
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 35px 46px 1fr auto;
+        grid-template-areas:
+        "title"
+        "website"
+        "image"
+        "paragraph";
+        gap: 28px;
+        margin-bottom: 50px;
     }
 }

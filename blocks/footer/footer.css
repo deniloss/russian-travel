@@ -8,3 +8,10 @@
     margin: auto;
     width: 92.5%;
 }
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding-top: 64px;
+        flex-direction: column;
+    }
+}
