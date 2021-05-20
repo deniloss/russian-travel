@@ -16,20 +16,18 @@
     .place {
         gap: 32px;
         margin: 0 5% 80px 5%;
-        grid-template-columns: 1fr 450px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
         width: 93.75%;
-        margin: 0;
-        grid-template-columns: 1fr fit-content(352px);
+        margin: 0 5% 45px 5%;
         gap: 28px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     .place {
         width: 100%;
         grid-template-columns: 1fr;
@@ -40,6 +38,6 @@
         "image"
         "paragraph";
         gap: 28px;
-        margin-bottom: 50px;
+        margin: 0 0 50px 0;
     }
 }

@@ -1,5 +1,5 @@
 .intro {
-    width: 984px;
+    max-width: 984px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -10,13 +10,13 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
-        width: 928px;
+        max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        width: 720px;
+        max-width: 720px;
     }
 }
 

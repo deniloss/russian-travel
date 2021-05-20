@@ -6,3 +6,23 @@
     color: white;
     align-items: center;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
+    }
+}
