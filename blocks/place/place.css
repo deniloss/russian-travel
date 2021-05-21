@@ -7,7 +7,7 @@
     "title website"
     "image paragraph"
     "image paragraph";
-    margin: 0 11.3% 80px 11.3%;
+    margin: 0 12.5% 80px 12.5%;
     gap: 40px;
 }
 
@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        width: 93.75%;
+        width: 90%;
         margin: 0 5% 45px 5%;
         gap: 28px;
     }
@@ -29,6 +29,7 @@
 
 @media screen and (max-width: 480px) {
     .place {
+        /* justify-items: center; */
         width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: 35px 46px 1fr auto;

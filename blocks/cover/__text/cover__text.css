@@ -7,4 +7,12 @@
     justify-content: center;
     text-align: center;
     z-index: 2;
+    background-color: rgba(42, 44, 47, 0.3);
+    transition: background-color 0.2s linear;
+    text-decoration: none;
+}
+
+.cover__text:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+
 }

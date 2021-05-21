@@ -5,8 +5,21 @@
     flex-direction: row;
     justify-content: space-between;
     color: white;
-    margin: auto;
-    width: 92.5%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        width: 91%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 93.5%;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 320px) {

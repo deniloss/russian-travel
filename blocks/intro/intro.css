@@ -5,11 +5,12 @@
     color: white;
     align-items: flex-start;
     padding-top:114px;
-    margin: auto;
+    margin: 0 auto 0 12.5%;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
+        margin: 0 auto 0 4.68%;
         max-width: 928px;
     }
 }
@@ -22,6 +23,7 @@
 
 @media screen and (max-width: 320px) {
     .intro {
+        padding-top:64px;
         max-width: 288px;
     }
 }
