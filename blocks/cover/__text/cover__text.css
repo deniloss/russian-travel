@@ -1,5 +1,6 @@
 .cover__text {
     position: relative;
+    font-family: "Inter";
     min-height: 740px;
     display: flex;
     flex-direction: column;

@@ -32,7 +32,16 @@
         width: 100%;
         margin: 0;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, minmax(min-content, 235px))
+        grid-template-rows: repeat(3, minmax(min-content, 235px));
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .place {
+        width: 100%;
+        margin: 0;
+        grid-template-columns: 245px 1fr;
+        grid-template-rows: repeat(3, minmax(min-content, 235px));
     }
 }
 
@@ -50,4 +59,4 @@
         gap: 28px;
         margin: 0 0 50px 0;
     }
-} 
+}
