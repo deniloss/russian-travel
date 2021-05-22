@@ -4,9 +4,16 @@
     padding-bottom: 8px;
 }
 
+@media screen and (max-width: 707px) {
+    .place__website {
+        justify-self: left;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__website {
         margin-top: 28px;
+        margin-left: 5%;
         width: 288px;
         padding-bottom: 4px;
     }

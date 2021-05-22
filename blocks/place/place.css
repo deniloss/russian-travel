@@ -7,7 +7,7 @@
     "title website"
     "image paragraph"
     "image paragraph";
-    margin: 0 12.5% 80px 12.5%;
+    margin: 0 8.5% 80px 8.5%;
     gap: 40px;
 }
 
@@ -27,6 +27,15 @@
     }
 }
 
+@media screen and (max-width: 707px) {
+    .place {
+        width: 100%;
+        margin: 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, minmax(min-content, 235px))
+    }
+}
+
 @media screen and (max-width: 480px) {
     .place {
         /* justify-items: center; */
@@ -41,4 +50,4 @@
         gap: 28px;
         margin: 0 0 50px 0;
     }
-}
+} 

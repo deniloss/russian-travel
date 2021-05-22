@@ -37,11 +37,8 @@
     .place__paragraph {
         max-width: 288px;
         margin-top: 4px;
+        margin-left: 5%;
         font-size: 16px;
         line-height: 26px;
-    }
-
-    .place__paragraph:last-child {
-        margin-top: -15px;
     }
 }
