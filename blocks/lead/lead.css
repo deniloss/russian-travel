@@ -17,7 +17,10 @@
 @media screen and (max-width: 768px) {
     .lead {
         max-width: 768px;
+<<<<<<< HEAD
+=======
         margin: 0;
+>>>>>>> b3b34bf370ed183f3cfdb367e8e93e1b66d9f21a
     }
 }
 
