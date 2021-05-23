@@ -8,3 +8,6 @@
 
 ### План по разработке проекта
 * Добавление CSS анимаций
+
+## GH-Pages
+https://deniloss.github.io/russian-travel/

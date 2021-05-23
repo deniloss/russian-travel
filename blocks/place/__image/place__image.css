@@ -1,6 +1,12 @@
 .place__image {
     grid-area: image;
-    width: 460px;
+    max-width: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -9,8 +15,20 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 590px) {
+    .place__image {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 370px) {
     .place__image {
         max-width: 320px;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        max-width: 320px;
+        }
 }

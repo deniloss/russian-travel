@@ -5,12 +5,26 @@
     flex-direction: row;
     justify-content: space-between;
     color: white;
-    margin: auto;
-    width: 92.5%;
+    max-width: 1184px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 720px;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
+        margin-left: 16px;
         padding-top: 64px;
         flex-direction: column;
     }

@@ -4,14 +4,17 @@
 
 @media screen and (max-width: 1024px) {
     .lead__image {
-        max-width: 928px;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image {
         max-width: 768px;
+<<<<<<< HEAD
         /* margin-left: -24px; */
+=======
+>>>>>>> b3b34bf370ed183f3cfdb367e8e93e1b66d9f21a
     }
 }
 
